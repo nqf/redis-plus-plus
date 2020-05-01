@@ -43,7 +43,7 @@ set_target_properties(${SHARED_LIB} PROPERTIES CLEAN_DIRECT_OUTPUT 1)
 option(REDIS_PLUS_PLUS_BUILD_TEST "Build tests for redis++" ON)
 
 if(REDIS_PLUS_PLUS_BUILD_TEST)
-    add_subdirectory(test)
+#    add_subdirectory(test)
 endif()
 
 # Install static lib.
